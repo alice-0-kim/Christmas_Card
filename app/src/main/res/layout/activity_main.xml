@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.myplannerver2.MainActivity">
+
+    <TextView
+        android:id="@+id/alice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALICE"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="100dp"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="40sp"
+        android:layout_below="@id/alice"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/william"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WILLIAM"
+        android:textSize="40sp"
+        android:layout_below="@id/plus"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/equal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="40sp"
+        android:layout_below="@id/william"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        android:textColor="#000000"/>
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/equal"
+
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
